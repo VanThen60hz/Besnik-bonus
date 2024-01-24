@@ -29,6 +29,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -296,7 +297,7 @@ a {
 .hero__course__label,
 .hero__course-number {
     font-size: 1rem;
-    color: #0d1111;
+    color: var(--heading-color);
     font-weight: 500;
     line-height: normal;
 }
