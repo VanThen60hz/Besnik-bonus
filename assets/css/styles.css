@@ -439,10 +439,6 @@ a {
     padding: 130px;
 }
 
-.features .body {
-    width: 1024px;
-}
-
 .features__title {
     margin-top: 18px;
     width: 557px;
@@ -456,8 +452,9 @@ a {
 }
 
 .feature-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
     margin-top: 80px;
-    display: flex;
     justify-content: space-between;
 }
 
