@@ -105,6 +105,29 @@
         grid-template-columns: auto auto;
         row-gap: 50px;
     }
+
+    .course-list {
+        grid-template-columns: auto auto;
+        row-gap: 170px;
+    }
+
+    .course-foot {
+        padding: 0 50px;
+    }
+
+    .feedback .container {
+        flex-direction: column-reverse;
+        row-gap: 400px;
+        align-items: center;
+    }
+
+    .feedback__avatar-group {
+        width: 100%;
+    }
+
+    .feedback__carousel {
+        width: 80%;
+    }
 }
 
 /* Tablet */
@@ -178,6 +201,15 @@
 
     .feature-list {
         grid-template-columns: auto;
-        justify-content: center;
+        margin-left: 30px;
+    }
+
+    .courses {
+        margin-top: 50px;
+    }
+
+    .course-foot {
+        margin-top: 170px;
+        row-gap: 30px;
     }
 }

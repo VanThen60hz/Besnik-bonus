@@ -506,6 +506,8 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
 }
 
 .courses__action__link {
@@ -521,7 +523,8 @@ a {
 
 .course-list {
     margin-top: 79px;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
     gap: 47px;
     justify-content: space-between;
 }
@@ -637,6 +640,7 @@ a {
     padding: 0 196px;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .course-foot__stat__number {
