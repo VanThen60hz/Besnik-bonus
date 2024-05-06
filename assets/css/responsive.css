@@ -212,4 +212,16 @@
         margin-top: 170px;
         row-gap: 30px;
     }
+
+    .feedback {
+        margin-top: 50px;
+    }
+
+    .feedback__avatar-group {
+        display: none;
+    }
+
+    .feedback-item__quote {
+        font-size: 2rem;
+    }
 }
