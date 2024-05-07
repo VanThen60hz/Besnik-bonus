@@ -801,7 +801,8 @@ a {
 }
 
 .footer__top {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
     justify-content: space-between;
 }
 
